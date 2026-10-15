@@ -62,7 +62,7 @@ namespace Uber_Ride_Booking_System.Controllers
             {
                 return BadRequest("invalid email or password");
             }
-            if(dto.Password  != dto.Password)
+            if(exi.Password != dto.Password)
             {
                 return BadRequest("invalid email or password");
             }

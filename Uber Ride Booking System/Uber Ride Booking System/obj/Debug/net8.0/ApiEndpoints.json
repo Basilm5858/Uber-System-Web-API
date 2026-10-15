@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "Uber_Ride_Booking_System.Controllers.RideController",
+    "Method": "ChangeStatusToActepted",
+    "RelativePath": "accept",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Uber_Ride_Booking_System.Controllers.AuthController",
     "Method": "GetById",
     "RelativePath": "api/Auth/{id}",
@@ -43,6 +59,101 @@
         "Name": "dto",
         "Type": "Uber_Ride_Booking_System.DTOs.RegisterDTO",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Uber_Ride_Booking_System.Controllers.RideController",
+    "Method": "GetById",
+    "RelativePath": "api/Ride/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Uber_Ride_Booking_System.Controllers.RideController",
+    "Method": "Create",
+    "RelativePath": "api/Ride/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Uber_Ride_Booking_System.DTOs.CreateRideDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Uber_Ride_Booking_System.Controllers.RideController",
+    "Method": "Delete",
+    "RelativePath": "api/Ride/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Uber_Ride_Booking_System.Controllers.RideController",
+    "Method": "Filter",
+    "RelativePath": "api/Ride/Filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Uber_Ride_Booking_System.Controllers.RideController",
+    "Method": "GetAllWithPages",
+    "RelativePath": "api/Ride/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageno",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pagesize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Uber_Ride_Booking_System.Controllers.RideController",
+    "Method": "SearchByPickup",
+    "RelativePath": "api/Ride/Search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pickup",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -122,6 +233,22 @@
         "Name": "dto",
         "Type": "Uber_Ride_Booking_System.DTOs.CreateVehicleDTO",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Uber_Ride_Booking_System.Controllers.RideController",
+    "Method": "ChangeStatusToComplete",
+    "RelativePath": "complete",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

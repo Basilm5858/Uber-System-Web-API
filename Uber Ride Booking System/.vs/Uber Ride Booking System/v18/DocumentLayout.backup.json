@@ -1,0 +1,179 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\basil\\OneDrive\\Desktop\\Web API\\Uber-System-Web-API\\Uber Ride Booking System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1D5BD6-7AD5-4770-9565-CA28FCADCF6F}|Uber Ride Booking System\\Uber Ride Booking System.csproj|c:\\users\\basil\\onedrive\\desktop\\web api\\uber-system-web-api\\uber ride booking system\\uber ride booking system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1D5BD6-7AD5-4770-9565-CA28FCADCF6F}|Uber Ride Booking System\\Uber Ride Booking System.csproj|solutionrelative:uber ride booking system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1D5BD6-7AD5-4770-9565-CA28FCADCF6F}|Uber Ride Booking System\\Uber Ride Booking System.csproj|c:\\users\\basil\\onedrive\\desktop\\web api\\uber-system-web-api\\uber ride booking system\\uber ride booking system\\uber ride booking system.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{0A1D5BD6-7AD5-4770-9565-CA28FCADCF6F}|Uber Ride Booking System\\Uber Ride Booking System.csproj|solutionrelative:uber ride booking system\\uber ride booking system.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1D5BD6-7AD5-4770-9565-CA28FCADCF6F}|Uber Ride Booking System\\Uber Ride Booking System.csproj|c:\\users\\basil\\onedrive\\desktop\\web api\\uber-system-web-api\\uber ride booking system\\uber ride booking system\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1D5BD6-7AD5-4770-9565-CA28FCADCF6F}|Uber Ride Booking System\\Uber Ride Booking System.csproj|solutionrelative:uber ride booking system\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__ProjectModels/UberDB/True/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1D5BD6-7AD5-4770-9565-CA28FCADCF6F}|Uber Ride Booking System\\Uber Ride Booking System.csproj|c:\\users\\basil\\onedrive\\desktop\\web api\\uber-system-web-api\\uber ride booking system\\uber ride booking system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1D5BD6-7AD5-4770-9565-CA28FCADCF6F}|Uber Ride Booking System\\Uber Ride Booking System.csproj|solutionrelative:uber ride booking system\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1D5BD6-7AD5-4770-9565-CA28FCADCF6F}|Uber Ride Booking System\\Uber Ride Booking System.csproj|c:\\users\\basil\\onedrive\\desktop\\web api\\uber-system-web-api\\uber ride booking system\\uber ride booking system\\controllers\\ridecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1D5BD6-7AD5-4770-9565-CA28FCADCF6F}|Uber Ride Booking System\\Uber Ride Booking System.csproj|solutionrelative:uber ride booking system\\controllers\\ridecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1D5BD6-7AD5-4770-9565-CA28FCADCF6F}|Uber Ride Booking System\\Uber Ride Booking System.csproj|c:\\users\\basil\\onedrive\\desktop\\web api\\uber-system-web-api\\uber ride booking system\\uber ride booking system\\repos\\impelementation\\ridecustomrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1D5BD6-7AD5-4770-9565-CA28FCADCF6F}|Uber Ride Booking System\\Uber Ride Booking System.csproj|solutionrelative:uber ride booking system\\repos\\impelementation\\ridecustomrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1D5BD6-7AD5-4770-9565-CA28FCADCF6F}|Uber Ride Booking System\\Uber Ride Booking System.csproj|c:\\users\\basil\\onedrive\\desktop\\web api\\uber-system-web-api\\uber ride booking system\\uber ride booking system\\dtos\\ridedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1D5BD6-7AD5-4770-9565-CA28FCADCF6F}|Uber Ride Booking System\\Uber Ride Booking System.csproj|solutionrelative:uber ride booking system\\dtos\\ridedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1D5BD6-7AD5-4770-9565-CA28FCADCF6F}|Uber Ride Booking System\\Uber Ride Booking System.csproj|c:\\users\\basil\\onedrive\\desktop\\web api\\uber-system-web-api\\uber ride booking system\\uber ride booking system\\repos\\impelementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1D5BD6-7AD5-4770-9565-CA28FCADCF6F}|Uber Ride Booking System\\Uber Ride Booking System.csproj|solutionrelative:uber ride booking system\\repos\\impelementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A1D5BD6-7AD5-4770-9565-CA28FCADCF6F}|Uber Ride Booking System\\Uber Ride Booking System.csproj|c:\\users\\basil\\onedrive\\desktop\\web api\\uber-system-web-api\\uber ride booking system\\uber ride booking system\\repos\\interfaces\\iriderepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A1D5BD6-7AD5-4770-9565-CA28FCADCF6F}|Uber Ride Booking System\\Uber Ride Booking System.csproj|solutionrelative:uber ride booking system\\repos\\interfaces\\iriderepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Uber Ride Booking System.http",
+              "DocumentMoniker": "C:\\Users\\basil\\OneDrive\\Desktop\\Web API\\Uber-System-Web-API\\Uber Ride Booking System\\Uber Ride Booking System\\Uber Ride Booking System.http",
+              "RelativeDocumentMoniker": "Uber Ride Booking System\\Uber Ride Booking System.http",
+              "ToolTip": "C:\\Users\\basil\\OneDrive\\Desktop\\Web API\\Uber-System-Web-API\\Uber Ride Booking System\\Uber Ride Booking System\\Uber Ride Booking System.http",
+              "RelativeToolTip": "Uber Ride Booking System\\Uber Ride Booking System.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-10-15T11:55:36.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\basil\\OneDrive\\Desktop\\Web API\\Uber-System-Web-API\\Uber Ride Booking System\\Uber Ride Booking System\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Uber Ride Booking System\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\basil\\OneDrive\\Desktop\\Web API\\Uber-System-Web-API\\Uber Ride Booking System\\Uber Ride Booking System\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Uber Ride Booking System\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAwwFQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T11:38:54.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\basil\\OneDrive\\Desktop\\Web API\\Uber-System-Web-API\\Uber Ride Booking System\\Uber Ride Booking System\\Program.cs",
+              "RelativeDocumentMoniker": "Uber Ride Booking System\\Program.cs",
+              "ToolTip": "C:\\Users\\basil\\OneDrive\\Desktop\\Web API\\Uber-System-Web-API\\Uber Ride Booking System\\Uber Ride Booking System\\Program.cs",
+              "RelativeToolTip": "Uber Ride Booking System\\Program.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T08:00:34.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.Users.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/UberDB/True/SqlTable/dbo.Users.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/UberDB/True/SqlTable/dbo.Users.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-10-15T07:57:02.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\basil\\OneDrive\\Desktop\\Web API\\Uber-System-Web-API\\Uber Ride Booking System\\Uber Ride Booking System\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Uber Ride Booking System\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\basil\\OneDrive\\Desktop\\Web API\\Uber-System-Web-API\\Uber Ride Booking System\\Uber Ride Booking System\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Uber Ride Booking System\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T07:56:29.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\basil\\OneDrive\\Desktop\\Web API\\Uber-System-Web-API\\Uber Ride Booking System\\Uber Ride Booking System\\Repos\\Impelementation\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Uber Ride Booking System\\Repos\\Impelementation\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\basil\\OneDrive\\Desktop\\Web API\\Uber-System-Web-API\\Uber Ride Booking System\\Uber Ride Booking System\\Repos\\Impelementation\\UnitOfWork.cs",
+              "RelativeToolTip": "Uber Ride Booking System\\Repos\\Impelementation\\UnitOfWork.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA7wCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T19:17:14.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRideRepo.cs",
+              "DocumentMoniker": "C:\\Users\\basil\\OneDrive\\Desktop\\Web API\\Uber-System-Web-API\\Uber Ride Booking System\\Uber Ride Booking System\\Repos\\Interfaces\\IRideRepo.cs",
+              "RelativeDocumentMoniker": "Uber Ride Booking System\\Repos\\Interfaces\\IRideRepo.cs",
+              "ToolTip": "C:\\Users\\basil\\OneDrive\\Desktop\\Web API\\Uber-System-Web-API\\Uber Ride Booking System\\Uber Ride Booking System\\Repos\\Interfaces\\IRideRepo.cs",
+              "RelativeToolTip": "Uber Ride Booking System\\Repos\\Interfaces\\IRideRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T18:23:33.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RideCustomRepo.cs",
+              "DocumentMoniker": "C:\\Users\\basil\\OneDrive\\Desktop\\Web API\\Uber-System-Web-API\\Uber Ride Booking System\\Uber Ride Booking System\\Repos\\Impelementation\\RideCustomRepo.cs",
+              "RelativeDocumentMoniker": "Uber Ride Booking System\\Repos\\Impelementation\\RideCustomRepo.cs",
+              "ToolTip": "C:\\Users\\basil\\OneDrive\\Desktop\\Web API\\Uber-System-Web-API\\Uber Ride Booking System\\Uber Ride Booking System\\Repos\\Impelementation\\RideCustomRepo.cs",
+              "RelativeToolTip": "Uber Ride Booking System\\Repos\\Impelementation\\RideCustomRepo.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAADwvz8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T18:23:09.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RideController.cs",
+              "DocumentMoniker": "C:\\Users\\basil\\OneDrive\\Desktop\\Web API\\Uber-System-Web-API\\Uber Ride Booking System\\Uber Ride Booking System\\Controllers\\RideController.cs",
+              "RelativeDocumentMoniker": "Uber Ride Booking System\\Controllers\\RideController.cs",
+              "ToolTip": "C:\\Users\\basil\\OneDrive\\Desktop\\Web API\\Uber-System-Web-API\\Uber Ride Booking System\\Uber Ride Booking System\\Controllers\\RideController.cs",
+              "RelativeToolTip": "Uber Ride Booking System\\Controllers\\RideController.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAqwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T18:10:37.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RideDTO.cs",
+              "DocumentMoniker": "C:\\Users\\basil\\OneDrive\\Desktop\\Web API\\Uber-System-Web-API\\Uber Ride Booking System\\Uber Ride Booking System\\DTOs\\RideDTO.cs",
+              "RelativeDocumentMoniker": "Uber Ride Booking System\\DTOs\\RideDTO.cs",
+              "ToolTip": "C:\\Users\\basil\\OneDrive\\Desktop\\Web API\\Uber-System-Web-API\\Uber Ride Booking System\\Uber Ride Booking System\\DTOs\\RideDTO.cs",
+              "RelativeToolTip": "Uber Ride Booking System\\DTOs\\RideDTO.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAC8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-14T18:22:19.493Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

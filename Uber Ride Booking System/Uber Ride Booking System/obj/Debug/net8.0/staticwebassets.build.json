@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "f7KNTpgp4suMECFx3BMg3N6KKPMG6/b3neJzr4N7YLo=",
-  "Source": "Uber Ride Booking System",
-  "BasePath": "_content/Uber Ride Booking System",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"Abptk/7GrK2J99fKgi+dISprz2zRBd/HwsGWesJT1Vo=","Source":"Uber Ride Booking System","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

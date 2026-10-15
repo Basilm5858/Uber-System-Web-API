@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Uber Ride Booking System")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe4df7d87b0db574ac27a5a2b50b7509d3181a4f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Uber Ride Booking System")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Uber Ride Booking System")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

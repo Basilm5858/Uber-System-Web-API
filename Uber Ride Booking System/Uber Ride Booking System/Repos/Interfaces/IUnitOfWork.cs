@@ -6,7 +6,7 @@
         IVehicle vehicle { get; }
         IPayment payment { get; }
         IRating rating { get; }
-        IRideRepo ratingRepo { get; }
+        IRideRepo rideRepo { get; }
         Task SaveChanges();
     }
 }

@@ -31,16 +31,6 @@ builder.Services.AddScoped<IPayment, PaymentCustomRepo>();
 builder.Services.AddScoped<IAuthRepo, AuthRepoCustomRepo>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-builder.Services.AddCors(opt =>
-{
-    opt.AddPolicy("AllowFrontend", policy =>
-    {
-        policy.AllowAnyHeader()
-        .AllowAnyHeader()
-        .AllowAnyMethod()
-        .AllowAnyOrigin();
-    });
-});
 
 var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:Key"]));
 
@@ -63,8 +53,6 @@ builder.Services.AddAuthentication(x =>
     });
 
 var app = builder.Build();
-
-app.UseCors("AllowFrontend");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

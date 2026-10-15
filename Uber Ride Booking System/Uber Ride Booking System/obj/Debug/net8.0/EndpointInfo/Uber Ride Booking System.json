@@ -90,6 +90,189 @@
         }
       }
     },
+    "/api/Ride/{id}": {
+      "get": {
+        "tags": [
+          "Ride"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ride/Create": {
+      "post": {
+        "tags": [
+          "Ride"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateRideDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateRideDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateRideDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ride/GetAll": {
+      "get": {
+        "tags": [
+          "Ride"
+        ],
+        "parameters": [
+          {
+            "name": "pageno",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "pagesize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/accept": {
+      "patch": {
+        "tags": [
+          "Ride"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/complete": {
+      "patch": {
+        "tags": [
+          "Ride"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ride/Delete": {
+      "delete": {
+        "tags": [
+          "Ride"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ride/Search": {
+      "get": {
+        "tags": [
+          "Ride"
+        ],
+        "parameters": [
+          {
+            "name": "pickup",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ride/Filter": {
+      "get": {
+        "tags": [
+          "Ride"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/User/GetAllDrivers": {
       "get": {
         "tags": [
@@ -220,6 +403,46 @@
   },
   "components": {
     "schemas": {
+      "CreateRideDTO": {
+        "required": [
+          "dropOffLocation",
+          "pickupLocation",
+          "status"
+        ],
+        "type": "object",
+        "properties": {
+          "dropOffLocation": {
+            "maxLength": 150,
+            "minLength": 1,
+            "type": "string"
+          },
+          "pickupLocation": {
+            "maxLength": 150,
+            "minLength": 1,
+            "type": "string"
+          },
+          "fare": {
+            "maximum": 5000,
+            "minimum": 20,
+            "type": "integer",
+            "format": "int32"
+          },
+          "status": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "riderId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "driverId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "CreateVehicleDTO": {
         "required": [
           "color",

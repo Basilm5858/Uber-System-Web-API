@@ -12,6 +12,10 @@ namespace Uber_Ride_Booking_System.Mapper
 
             CreateMap<Vehicle, CreateVehicleDTO>();
 
+            CreateMap<CreateRideDTO, Ride>();
+            
+            CreateMap<Ride, RideDTO>();
+
         }
     }
 }

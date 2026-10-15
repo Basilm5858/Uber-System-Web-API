@@ -24,7 +24,7 @@ namespace Uber_Ride_Booking_System.Controllers
         [HttpPost("CreateVehicle")]
         public async Task<IActionResult> Create(CreateVehicleDTO dto)
         {
-            var exidriver = _unitOfWork.authRepo.GetById(dto.DriverId);
+            var exidriver = await _unitOfWork.authRepo.GetById(dto.DriverId);
             if (exidriver == null)
             {
                 return BadRequest("Driver Not Found");
@@ -39,7 +39,7 @@ namespace Uber_Ride_Booking_System.Controllers
         [HttpPut("UpdateVehicle")]
         public async Task<IActionResult> Update(int id, CreateVehicleDTO dto)
         {
-            var exidriver = _unitOfWork.authRepo.GetById(dto.DriverId);
+            var exidriver = await _unitOfWork.authRepo.GetById(dto.DriverId);
 
             if (exidriver == null)
             {

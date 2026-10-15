@@ -7,14 +7,14 @@ namespace Uber_Ride_Booking_System.Repos.Impelementation
     {
         private readonly My_AppContext _context;
 
-        public UnitOfWork(My_AppContext context, IAuthRepo authRepo, IVehicle vehicle, IPayment payment, IRating rating, IRideRepo ratingRepo)
+        public UnitOfWork(My_AppContext context, IAuthRepo authRepo, IVehicle vehicle, IPayment payment, IRating rating, IRideRepo rideRepo)
         {
             _context = context;
             this.authRepo = authRepo;
             this.vehicle = vehicle;
             this.payment = payment;
             this.rating = rating;
-            this.ratingRepo = ratingRepo;
+            this.rideRepo = rideRepo;
         }
 
         public IAuthRepo authRepo { get; }
@@ -25,7 +25,7 @@ namespace Uber_Ride_Booking_System.Repos.Impelementation
 
         public IRating rating { get; }
 
-        public IRideRepo ratingRepo { get; }
+        public IRideRepo rideRepo { get; }
 
         public async Task SaveChanges()
         {
